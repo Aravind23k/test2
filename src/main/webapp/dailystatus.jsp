@@ -53,7 +53,7 @@
 	$(document).ready(function() {
 		$("#dailystaus_table").DataTable({
 			dom : 'Bfrtip',
-			buttons : [ 'copyHtml5', 'pdfHtml5' ,'colvis',
+			buttons : [ 'copyHtml5','colvis',
 			            { extend: 'excel',
 			            
 			       
