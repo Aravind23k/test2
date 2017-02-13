@@ -54,7 +54,7 @@
 		$("#dailystaus_table").DataTable({
 			dom : 'Bfrtip',
 			buttons : [ 'copyHtml5','colvis',
-			            { extend: 'excel',
+			            { extend: 'excelHtml5',
 			            
 			       
 				 customize: function(xlsx)
